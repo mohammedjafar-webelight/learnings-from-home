@@ -1,4 +1,5 @@
 // dart learnings from home
+// practicing records
 void main() {
   // Records and all possibilites with it
   var strRecord = (
