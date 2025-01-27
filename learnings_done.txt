@@ -1,0 +1,38 @@
+List:
+  Constructors:
+    - empty : Used to create a fixed-length list with all elements initialized to the same value.
+
+    - filled : Creates a list with all elements initialized to the same value. By default, the list is fixed-length, but it can be made growable.
+
+    - from : Used to create a list from an existing iterable or collection.
+
+    - generate : Used to create a list by dynamically generating elements based on a function.
+
+    - of : Used to create a new list from an existing iterable, preserving its elements in the new list.
+
+    - unmodifiable : creates an immutable (read-only) list. Once created, the list cannot be modified—no elements can be added, removed, or changed.
+
+  Properties:
+    first: Returns the first element of the list, throws an error if the list is empty.
+
+    firstOrNull: Returns the first element if the list is not empty, or null if the list is empty.
+
+    isEmpty: Checks if the list contains no elements, returns true if the list is empty.
+
+    isNotEmpty: Checks if the list contains at least one element, returns true if the list is not empty.
+
+    last: Returns the last element of the list, throws an error if the list is empty.
+
+    lastOrNull: Returns the last element if the list is not empty, or null if the list is empty.
+
+    length: Returns the number of elements in the list.
+
+    nonNulls: Returns an iterable of all non-null elements from the list.
+
+    reversed: Returns an iterable with the elements of the list in reverse order.
+
+    runtimeType: Returns the runtime type of the list (i.e., its type as an object).
+
+    single: Returns the only element of the list if it contains exactly one element, throws an error otherwise.
+
+    singleOrNull: Returns the only element of the list if it contains exactly one element, or null if the list is empty or has more than one element.
