@@ -1,0 +1,29 @@
+Lib Admin
+    Add Book
+    - ISBN, title, author, copies available
+
+    Register Lib Member
+    - memberID, name, email, phone
+
+                    Issue Book
+                    - ISBN, memberID
+    
+                    Return Book
+                    - ISBN, memberID
+    
+                    Check member details
+                    - memberID
+    
+                    Check Book Details
+                    - ISBN
+
+                    Remove Member
+                    - memberID
+
+                    Remove Book
+                    - ISBN
+
+                    Book Search by Title/Author
+                    Generate Reports
+
+continue from issue book:
